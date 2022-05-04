@@ -1,0 +1,42 @@
+
+.mat-form-field-flex.ng-tns-c40-0  {
+  background-color: #00000000;
+  display: inline-block;
+  width: fit-content;
+  //border: 2px solid black;
+  margin: 0px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+/* identical to box height */
+  color: #FFFFFF;
+  .mat-form-field-infix.ng-tns-c40-0 {
+    width: fit-content;
+    mat-select {
+      width: fit-content;
+    }
+  }
+  
+  .mat-select-value.ng-tns-c75-1 {
+    width: fit-content;
+    .mat-select-value-text {
+      color: #ffffff;
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+  .mat-select-arrow-wrapper {
+    transform: translateY(0);
+    .mat-select-arrow.ng-tns-c75-1 {
+      color: #ffffff;
+    }
+  }
+}
+.mat-form-field-underline.ng-tns-c40-0.ng-star-inserted {
+  display: none;
+}

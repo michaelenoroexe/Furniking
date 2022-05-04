@@ -1,3 +1,15 @@
 <header>
-  <h3>Welcome to our online shop</h3>
+  <h3 style="min-width:max-content; margin-left: 130px;">Welcome to our online shop</h3> 
+  <div class="control" style="margin-right: 130px;">
+    <mat-form-field appearance="fill">
+    <mat-select [formControl]="selected">
+      <mat-option value="USD">English (USD)</mat-option>
+      <mat-option value="RU">Russian (RU)</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <span class="line"></span>
+  <a href="#"><h3>Login or Sign up</h3></a>
+</div> 
 </header>
+<!-- This button triggers the overlay and is it's origin -->
+

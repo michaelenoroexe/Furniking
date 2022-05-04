@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FormControl, Validators } from '@angular/forms';
+import { TooltipPosition } from '@angular/material/tooltip';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Furniking';
+  selected = new FormControl('USD');
+  constructor() {
+  }
+  
 }

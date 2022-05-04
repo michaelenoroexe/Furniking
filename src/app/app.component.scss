@@ -4,21 +4,37 @@ header {
   height: 50px;
   margin: 0px;
   display: grid;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 50px;
   align-items: center;
-
+  .control {
+    text-align: end;
+  }
+  .line {
+    border: 1px solid white;
+    margin-right: 15px;
+  }
+  a {
+    text-decoration: none;
+  }
 }
+
 
 h3 {
   display: inline-block;
-  border: 2px solid black;
+//  border: 2px solid black;
   margin: 0px;
 
   font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
 }
+
+.arrow {
+  display: inline-block;
+  transform: scale(0.8, 0.5);
+}
+
