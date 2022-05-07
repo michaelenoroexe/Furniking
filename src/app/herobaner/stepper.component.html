@@ -1,0 +1,14 @@
+<section class="example-container">
+
+  <div *ngTemplateOutlet="selected ? selected.content : null" class="object"></div>
+
+  <footer class="example-step-navigation-bar">
+    <button
+      class="example-step"
+      [class.example-active]="selectedIndex === i"
+      *ngFor="let step of steps; let i = index"
+      (click)="selectStepByIndex(i)"
+    >
+    </button>
+  </footer>
+</section>

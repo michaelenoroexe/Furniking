@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url('../../../../assets/fonts/Rubik.ttf');
+}
 
 .mat-form-field-flex.ng-tns-c40-0  {
   background-color: #00000000;
@@ -39,4 +43,41 @@
 }
 .mat-form-field-underline.ng-tns-c40-0.ng-star-inserted {
   display: none;
+}
+
+.mat-form-field.ng-tns-c40-2 {
+  height: 45px;
+  display: inline-block;
+  width: 120px;
+  text-align: end;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #555555;
+  .mat-form-field-wrapper.ng-tns-c40-2 {
+    height: 45px;
+    padding: 0px;
+    width: 120px;
+    .mat-form-field-flex.ng-tns-c40-2 {
+      padding: 0px;
+      width: 120px;
+      .mat-select-arrow-wrapper {
+        transform: translateY(0);
+      }
+      .mat-form-field-infix.ng-tns-c40-2 {
+        width: 120px;
+        padding-right: 0px;
+        background-color: #FFFFFF;
+        .mat-select-value.ng-tns-c75-3 {
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+  .mat-form-field-underline.ng-tns-c40-2 {
+    display: none;
+  }
 }

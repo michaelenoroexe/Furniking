@@ -2,14 +2,105 @@
   <h3 style="min-width:max-content; margin-left: 130px;">Welcome to our online shop</h3> 
   <div class="control" style="margin-right: 130px;">
     <mat-form-field appearance="fill">
-    <mat-select [formControl]="selected">
-      <mat-option value="USD">English (USD)</mat-option>
-      <mat-option value="RU">Russian (RU)</mat-option>
-    </mat-select>
-  </mat-form-field>
+      <mat-select [formControl]="selected">
+        <mat-option value="USD">English (USD)</mat-option>
+        <mat-option value="RU">Russian (RU)</mat-option>
+      </mat-select>
+    </mat-form-field>
   <span class="line"></span>
   <a href="#"><h3>Login or Sign up</h3></a>
-</div> 
+  </div> 
 </header>
+<div id="hero-section">
+  <a href="#" id="logo">
+    <img src="./../assets/Logo.png" alt="Logo" width="32px" height="39px">
+    Furniking
+  </a>
+  <div id="search-bar">
+    <input type="text" class="field">
+    <mat-form-field appearance="fill">
+      <mat-select [formControl]="selected">
+        <mat-option value="cat">Categories</mat-option>
+        <mat-option value="Modems">Modems</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <button mat-raised-button color="primary">
+      <img src="../assets/findbutton.png" alt="Q" width="16px" height="16px">
+    </button>
+  </div>
+  <div class="user-buttons">
+    <button mat-icon-button class="user-button">
+      <img src="../assets/userButtons/shop.png" alt="P" width="32px" height="25px">
+    </button>
+    <button mat-icon-button class="user-button">
+      <img src="../assets/userButtons/notification.png" alt="P" width="24px" height="25px">
+    </button>
+    <button mat-icon-button class="user-button">
+      <img src="../assets/userButtons/user.png" alt="U" width="25px" height="25px">
+    </button>
+  </div>
+</div>
 <!-- This button triggers the overlay and is it's origin -->
-
+<div id="site-bar">
+  <div id="collections-header">
+    <img src="../assets/collections.png" alt="-" width="18px" height="16px">
+    <span>ALL COLLECTIONS</span>
+  </div>
+  <div id="site-bar-sections">
+    <a href="#">HOME</a>
+    <a href="#">SHOP</a>
+    <a href="#">BLOG</a>
+    <a href="#">ABOUT</a>
+    <a href="#">CONTACT US</a>
+  </div>
+</div>
+<div id="collections-box">
+  <div id="hero-baner">
+    <stepper>
+      <cdk-step> <p>Placeholderfdgsssgfdfdgdg</p> </cdk-step>
+      <cdk-step> <p>Placeholder</p> </cdk-step>
+      <cdk-step> 
+        <div class="ad">
+          <div class="info">
+            <span id="info-block-1">TOP COLLECTIONS 2022</span> <br/>
+            <span id="info-block-2">We Serve Your Dream Furniture</span> <br/>
+            <span id="info-block-3">Get 50% off all products</span> <br/>
+            <a href="#">SHOP NOW</a>
+          </div>
+          <img src="../assets/Chair1.png" alt="Furniture" width="339px" height="339px">
+          <div id="another-goods">
+            <div class="item">
+              <img src="../assets/Chair2.png" alt="Furniture" width="50px" height="53px">
+              <div class="price"><span class="dollar">$</span>120</div>
+              <div class="furni-name">Office Desk Chair</div>
+            </div>
+            <div class="item">
+              <img src="../assets/Chair3.png" alt="Furniture" width="80px" height="53px">
+              <div class="price"><span class="dollar">$</span>180</div>
+              <div class="furni-name">Home Alisa Sofa</div>
+            </div>
+            <div class="item" style="margin-bottom: 0px;">
+              <img src="../assets/Chair4.png" alt="Furniture" width="51px" height="57px">
+              <div class="price"><span class="dollar">$</span>250</div>
+              <div class="furni-name">Modern Chair</div>
+            </div>
+          </div>
+        </div>
+      </cdk-step>
+      <cdk-step> <p>Placeholder</p> </cdk-step>
+    </stepper>
+  </div>
+  <div id="collections">
+    <span class="col-item">All</span> 
+    <span class="col-item">New Arrivals</span> 
+    <span class="col-item">Hot Sale</span> 
+    <span class="col-item">Furniture</span> 
+    <span class="col-item">Amrature</span> 
+    <span class="col-item">Tabble</span> 
+    <span class="col-item">Chair</span> 
+    <span class="col-item">Sofa</span> 
+    <span class="col-item">Mirrors</span> 
+    <span class="col-item">Stools</span> 
+    <span class="col-item" style="padding-bottom: 10px;">Benches</span> 
+  </div>
+</div>
