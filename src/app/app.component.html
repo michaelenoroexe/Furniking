@@ -1,8 +1,9 @@
+<!-- Header of landing -->
 <header>
   <h3 style="min-width:max-content; margin-left: 130px;">Welcome to our online shop</h3> 
   <div class="control" style="margin-right: 130px;">
     <mat-form-field appearance="fill">
-      <mat-select [formControl]="selected">
+      <mat-select [formControl]="selectedlang">
         <mat-option value="USD">English (USD)</mat-option>
         <mat-option value="RU">Russian (RU)</mat-option>
       </mat-select>
@@ -11,6 +12,8 @@
   <a href="#"><h3>Login or Sign up</h3></a>
   </div> 
 </header>
+<!-- --------------------------------- -->
+<!-- Hero section -->
 <div id="hero-section">
   <a href="#" id="logo">
     <img src="./../assets/Logo.png" alt="Logo" width="32px" height="39px">
@@ -19,7 +22,7 @@
   <div id="search-bar">
     <input type="text" class="field">
     <mat-form-field appearance="fill">
-      <mat-select [formControl]="selected">
+      <mat-select [formControl]="selectedcat">
         <mat-option value="cat">Categories</mat-option>
         <mat-option value="Modems">Modems</mat-option>
       </mat-select>
@@ -40,7 +43,7 @@
     </button>
   </div>
 </div>
-<!-- This button triggers the overlay and is it's origin -->
+<!-- Site navigation bar -->
 <div id="site-bar">
   <div id="collections-header">
     <img src="../assets/collections.png" alt="-" width="18px" height="16px">
@@ -54,10 +57,12 @@
     <a href="#">CONTACT US</a>
   </div>
 </div>
+<!-- ------------------------------- -->
+<!-- List of collections and hero baner -->
 <div id="collections-box">
   <div id="hero-baner">
     <stepper>
-      <cdk-step> <p>Placeholderfdgsssgfdfdgdg</p> </cdk-step>
+      <cdk-step> <p>Placeholder</p> </cdk-step>
       <cdk-step> <p>Placeholder</p> </cdk-step>
       <cdk-step> 
         <div class="ad">
@@ -104,3 +109,6 @@
     <span class="col-item" style="padding-bottom: 10px;">Benches</span> 
   </div>
 </div>
+<!-- Precerences bar -->
+<preferences>
+</preferences>

@@ -2,12 +2,12 @@
   font-family: 'Rubik';
   src: url('../../../../assets/fonts/Rubik.ttf');
 }
-
+// Styling of angular materials
+//Header language select
 .mat-form-field-flex.ng-tns-c40-0  {
   background-color: #00000000;
   display: inline-block;
   width: fit-content;
-  //border: 2px solid black;
   margin: 0px;
   font-family: 'Rubik';
   font-style: normal;
@@ -44,7 +44,8 @@
 .mat-form-field-underline.ng-tns-c40-0.ng-star-inserted {
   display: none;
 }
-
+// --------------------------
+// Search-bar collection select styling
 .mat-form-field.ng-tns-c40-2 {
   height: 45px;
   display: inline-block;
@@ -81,3 +82,4 @@
     display: none;
   }
 }
+// --------------------------

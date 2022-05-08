@@ -7,7 +7,11 @@ import { CdkStepper} from '@angular/cdk/stepper'
   styleUrls: ['./stepper.component.scss'],
   providers: [{ provide: CdkStepper, useExisting: CustomStepperComponent }]
 })
-export class CustomStepperComponent extends CdkStepper {
+export class CustomStepperComponent extends CdkStepper implements OnInit {
+  ngOnInit(): void {
+    this.selectedIndex = 2;
+  }
+
   selectStepByIndex(index: number): void {
     this.selectedIndex = index;
   }

@@ -9,7 +9,8 @@ import { TooltipPosition } from '@angular/material/tooltip';
 })
 export class AppComponent {
   title = 'Furniking';
-  selected = new FormControl('USD');
+  selectedlang = new FormControl('USD');
+  selectedcat = new FormControl('cat');
   constructor() {
   }
   
