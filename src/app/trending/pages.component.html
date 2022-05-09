@@ -1,0 +1,21 @@
+<!-- Component that shows categories of furniture -->
+<section class="example-container">
+  <div *ngTemplateOutlet="selected ? selected.content : null" class="object"></div>
+  <footer class="example-step-navigation-bar">
+    <button
+      class="example-step"
+      [class.example-active]="selectedIndex === 0"
+      (click)="selectStepByIndex(0)"
+    >
+    <div class="inner-circle"></div>
+    </button>
+    <button
+      class="example-step"
+      [class.example-active]="selectedIndex === 1"
+      (click)="selectStepByIndex(1)"
+      style="margin-left:14px;"
+    >
+    <div class="inner-circle"></div>
+    </button>
+  </footer>
+</section>

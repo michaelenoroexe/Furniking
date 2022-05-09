@@ -1,0 +1,30 @@
+<div id="element" (mouseenter)="ButtonAppear()" (mouseleave)="ButtonHide()">
+  <div class="image" style="background-image:url({{image}});">
+    <div [style.background-color]="TypeCh(type)" class="type">
+      {{type}}
+    </div>
+    <div *ngIf="buttonsVisib" class="buttons">
+      <button><img src="../../../assets/Trending/top-products/item-images/like.png" alt="Like" width="20px" height="18px"></button>
+      <button><img src="../../../assets/Trending/top-products/item-images/purch.png" alt="Purch" width="19.5px" height="19.5px"></button>
+      <button><img src="../../../assets/Trending/top-products/item-images/refr.png" alt="Refr" width="20px" height="18px"></button>
+      <button><img src="../../../assets/Trending/top-products/item-images/view.png" alt="Watch" width="19.4px" height="15px"></button>
+    </div>
+  </div>
+  <div class="typ">
+    {{typ}}
+  </div>
+  <div class="name">
+    {{name}}
+  </div>
+  <div class="pref">
+    <span class="price new">
+      {{priceNew}}
+    </span>
+    <span class="price old">
+      {{priceOld}}
+    </span>
+    <span class="rating">
+      <div class="star" *ngFor="let r of rate;" [style.background-image]="RateCh(r)"></div>
+    </span>
+  </div>
+</div>

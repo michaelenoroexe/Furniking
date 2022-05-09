@@ -344,3 +344,29 @@ preferences {
     }
   }
 }
+h2 {
+  margin-left: 135px;
+  width: 1170px;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #555555;
+}
+trend-categ {
+  display: block;
+  margin-left: 135px;
+  width: 1170px;
+  height: 1010px;
+  cdk-step {
+    height: 100%;
+  }
+  .page {
+    height: 800px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

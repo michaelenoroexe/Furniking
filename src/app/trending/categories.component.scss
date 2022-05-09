@@ -1,0 +1,20 @@
+header {
+  text-align: center;
+  height: max-content;
+  margin-bottom: 70px;
+  .example-step {
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    border: none;
+    background-color: #00000000;
+    color: #C2C2C2;
+  }
+  .example-step.example-active {
+    color: #7AC751;
+  }
+}
+object {
+  height: 905px;
+}

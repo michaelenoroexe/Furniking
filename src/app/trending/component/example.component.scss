@@ -1,0 +1,86 @@
+#element {
+  height: 380px;
+  width: 270px;
+  .image {
+    width: 270px;
+    height: 288px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .type {
+      width: 45px;
+      border-radius: 0px 0px 5px 0px;
+      font-family: Mulish;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 16px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  }
+  .typ {
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.008em;
+    color: #757575B5;
+  }
+  .name {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #555555;
+    margin-bottom: 13px;
+  }
+  .pref {
+    display: grid;
+    grid-template-columns: max-content max-content 165px;
+    .price {
+      font-family: Mulish;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.005em;
+    }
+    .price.new {
+      font-weight: 700;
+      color: #7AC751;
+      margin-right: 7px;
+    }
+    .price.old {
+      font-weight: 600;
+      color: #CCCCCC;
+      text-decoration: line-through;
+    }
+    .rating {
+      margin-left: 110px;
+      width: fit-content;
+      .star {
+        width: 11px;
+        height: 10px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: inline-block;
+      }
+    }
+  }
+  .buttons {
+    text-align: end;
+    position: relative;
+    top: 70px;
+    left: 225px;
+    button {
+      display: block;
+      height: 39px;
+      width: 39px;
+      margin-bottom: 10px;
+      background-color: #FFFFFF;
+      border: none;
+      border-radius: 100px;
+      padding: 0px;
+      text-align: center;
+      line-height: 45px;
+    }
+  }
+}

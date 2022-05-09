@@ -1,0 +1,28 @@
+<!-- Component that shows categories of furniture -->
+<section class="example-container">
+  <header class="example-step-navigation-bar">
+    <button
+      class="example-step"
+      [class.example-active]="selectedIndex === 0"
+      (click)="selectStepByIndex(0)"
+    >
+    Top Products 
+    </button>
+    <button
+      class="example-step"
+      [class.example-active]="selectedIndex === 1"
+      (click)="selectStepByIndex(1)"
+      style="margin:0px 70px;"
+    >
+    New Arrivals
+    </button>
+    <button
+      class="example-step"
+      [class.example-active]="selectedIndex === 2"
+      (click)="selectStepByIndex(2)"
+    >
+    Best Sellers
+    </button>
+  </header>
+  <div *ngTemplateOutlet="selected ? selected.content : null" class="object"></div>
+</section>

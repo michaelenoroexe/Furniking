@@ -11,12 +11,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { CustomStepperComponent } from './herobaner/stepper.component'
 import { PreferenceComponent } from './preferences/preferences.component'
+import { CategoriesComponent } from './trending/categories.component'
+import { PagesComponent } from './trending/pages.component'
+import { FurnExampleComponent } from './trending/component/example.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     CustomStepperComponent,
-    PreferenceComponent
+    PreferenceComponent,
+    CategoriesComponent,
+    PagesComponent,
+    FurnExampleComponent
   ],
   imports: [
     BrowserModule,
