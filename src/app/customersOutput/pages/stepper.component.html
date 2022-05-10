@@ -1,0 +1,19 @@
+<!-- Component that shows examples of furniture -->
+<section class="example-container">
+  <button
+  class="back"
+  style="margin-right: 55px;"
+  [style.visibility]="selectedIndex > 0 ? 'visible' : 'hidden'"
+  (click)="selectStepByIndex(selectedIndex - 1)"
+  ><
+  </button>
+  <div *ngTemplateOutlet="selected ? selected.content : null" class="object"></div>
+  <button
+  class="next"
+  style="margin-left: 55px;"
+  [style.visibility]="selectedIndex < 3 ? 'visible' : 'hidden'"
+  (click)="selectStepByIndex(selectedIndex + 1)"
+  >>
+  </button>
+  
+</section>

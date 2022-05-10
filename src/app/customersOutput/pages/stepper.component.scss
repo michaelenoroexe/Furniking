@@ -1,0 +1,52 @@
+
+.example-container {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns:175px 815px 175px;
+  align-items: flex-end;
+  button {
+    height: 100%;
+    color: #CCCCCC;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 30px;
+    font-weight: 1000;
+  }
+}
+
+.object {
+  width: 100%;
+}
+
+.example-step-navigation-bar {
+  display: flex;
+  justify-content: space-around;
+  width: 155px;
+  margin-top: 0px;
+  margin-bottom: 22px;
+}
+
+.example-step {
+  background: transparent;
+  height: 12px;
+  width: 12px;
+  border: 0;
+  margin: 0 10px;
+  padding: 0px;
+  border-radius: 10px;
+  background-color: #7AC7514A;
+}
+
+.example-step.example-active {
+  height: 9px;
+  width: 24px;
+  background-color: #7AC751;
+}
+
+.example-nav-button {
+  background: transparent;
+  border: 0;
+}

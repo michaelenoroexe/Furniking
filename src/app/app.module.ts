@@ -17,6 +17,8 @@ import { FurnExampleComponent } from './trending/component/example.component';
 import { OfferItemComponent } from './specialOffer/item/item.component';
 import { ProductsCategoriesComponent } from './productsList/categories/categories.component';
 import { ProductPagesComponent } from './productsList/pages/pages.component';
+import { CustomerPagesComponent } from './customersOutput/pages/stepper.component';
+import { CommentComponent } from './customersOutput/components/example.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ProductPagesComponent } from './productsList/pages/pages.component';
     FurnExampleComponent,
     OfferItemComponent,
     ProductsCategoriesComponent,
-    ProductPagesComponent
+    ProductPagesComponent,
+    CustomerPagesComponent,
+    CommentComponent
   ],
   imports: [
     BrowserModule,
