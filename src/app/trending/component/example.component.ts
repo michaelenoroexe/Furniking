@@ -27,7 +27,7 @@ export class FurnExampleComponent implements OnInit {
   TypeCh(t:string) {
     if (t == "New") return "#00B7F1";
     if (t == "Sale") return "#7AC751";
-    return "#ffffff"
+    return "#FF6868"
   }
   // Display furniture correct rating
   RateCh(rate:number) {

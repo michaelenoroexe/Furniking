@@ -1,0 +1,39 @@
+<!-- Component that shows categories of furniture -->
+<section class="example-container">
+  <div *ngTemplateOutlet="selected ? selected.content : null" class="object"></div>
+  <footer class="example-step-navigation-bar">
+    <!-- Buttons to step forvard and behind-->
+    <div class="navigation">
+      <button
+      class="back"
+      [style.visibility]="selectedIndex > 0 ? 'visible' : 'hidden'"
+      (click)="selectStepByIndex(selectedIndex - 1)"
+      >
+    <img src="../../assets/stocks/arrow.png" alt="<" class="step" style="transform: scale(-1, -1);margin-right:10px;"> Previous page
+    </button>
+    <button
+      class="next"
+      [style.visibility]="selectedIndex < 99 ? 'visible' : 'hidden'"
+      (click)="selectStepByIndex(selectedIndex + 1)"
+      style="margin-left:14px;"
+    >
+    Next page <img src="../../assets/stocks/arrow.png" alt=">" class="step" style="margin-left:10px;">
+    </button>
+    </div>
+    <!-- Chose page -->
+    <div class="paging">
+      Page 
+      <input type="text" [(ngModel)]="selectedIn" style="margin-left:10px;">
+      of 100
+      <div class="buttons">
+        <button
+         [style.visibility]="selectedIndex > 0 ? 'visible' : 'hidden'" 
+         (click)="selectStepByIndex(selectedIndex - 1)" 
+         style="margin-right:10px;"><</button>
+        <button 
+        [style.visibility]="selectedIndex < 99 ? 'visible' : 'hidden'"
+        (click)="selectStepByIndex(selectedIndex + 1)">></button>
+      </div>
+    </div>
+  </footer>
+</section>

@@ -362,13 +362,13 @@ trend-categ {
   cdk-step {
     height: 100%;
   }
-  .page {
-    height: 800px;
-    padding: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
+}
+.page {
+  height: 800px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 #special-offer {
   margin-left: 135px;
@@ -378,4 +378,11 @@ trend-categ {
   grid-template-columns: 570px 570px;
   justify-content: space-between;
   margin-bottom: 120px;
+}
+products-categ {
+  display: block;
+  margin-left: 135px;
+  margin-bottom: 120px;
+  width: 1170px;
+  height: 1020px;
 }

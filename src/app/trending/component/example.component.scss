@@ -4,6 +4,7 @@
   .image {
     width: 270px;
     height: 288px;
+    margin-bottom: 15px;
     background-repeat: no-repeat;
     background-size: cover;
     .type {
@@ -68,6 +69,7 @@
   .buttons {
     text-align: end;
     position: relative;
+    width: fit-content;
     top: 70px;
     left: 225px;
     button {
@@ -81,6 +83,12 @@
       padding: 0px;
       text-align: center;
       line-height: 45px;
+    }
+    button:hover {
+      background-color: #7AC751;
+      img {
+        filter: brightness(0) invert(1);
+      }
     }
   }
 }
