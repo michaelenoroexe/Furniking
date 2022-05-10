@@ -394,3 +394,15 @@ customer-output {
   width: 1170px;
   height: 355px;
 }
+#articles {
+  margin-left: 135px;
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  
+  justify-content: space-between;
+  article {
+    margin-bottom: 22px;
+  }
+}
+

@@ -19,6 +19,8 @@ import { ProductsCategoriesComponent } from './productsList/categories/categorie
 import { ProductPagesComponent } from './productsList/pages/pages.component';
 import { CustomerPagesComponent } from './customersOutput/pages/stepper.component';
 import { CommentComponent } from './customersOutput/components/example.component';
+import { ArticleComponent } from './article/article.component';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { CommentComponent } from './customersOutput/components/example.component
     ProductsCategoriesComponent,
     ProductPagesComponent,
     CustomerPagesComponent,
-    CommentComponent
+    CommentComponent,
+    ArticleComponent
   ],
   imports: [
     BrowserModule,
