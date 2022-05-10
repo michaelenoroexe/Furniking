@@ -1,4 +1,5 @@
 <div id="element" (mouseenter)="ButtonAppear()" (mouseleave)="ButtonHide()">
+  <!-- Image of furniture -->
   <div class="image" style="background-image:url({{image}});">
     <div [style.background-color]="TypeCh(type)" class="type">
       {{type}}
@@ -10,6 +11,7 @@
       <button><img src="../../../assets/Trending/top-products/item-images/view.png" alt="Watch" width="19.4px" height="15px"></button>
     </div>
   </div>
+  <!-- Information block -->
   <div class="typ">
     {{typ}}
   </div>

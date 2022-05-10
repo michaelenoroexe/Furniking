@@ -1,0 +1,38 @@
+<div class="item" style="background-image:url({{image}});">
+  <div class="discount">
+    {{discount}}% off
+  </div>
+  <div class="title">
+    {{title}}
+  </div>
+  <div class="desc">
+    {{description}}
+  </div>
+  <div class="price">
+    <span class="new">
+      ${{priceNew}}
+    </span>
+    <span class="old">
+      ${{price}}
+    </span>
+    <a href="#">SHOP NOW</a>
+  </div>
+  <div class="time">
+    <span class="days">
+      <div class="numb">{{!(+days > 0) ? "00" : (+days < 10) ? ("0"+days) : days}}</div>
+      <div class="tex">Days</div>
+    </span>
+    <span class="hours">
+      <div class="numb">{{!(+hours > 0) ? "00" : (+hours < 10) ? ("0"+hours) : hours}}</div>
+      <div class="tex">HRS</div>
+    </span>
+    <span class="mins">
+      <div class="numb">{{!(+minutes > 0) ? "00" : (+minutes < 10) ? ("0"+minutes) : minutes}}</div>
+      <div class="tex">MIN</div>
+    </span>
+    <span class="seconds">
+      <div class="numb">{{!(+seconds > 0) ? "00" : (+seconds < 10) ? ("0"+seconds) : seconds}}</div>
+      <div class="tex">secs</div>
+    </span>
+  </div>
+</div>

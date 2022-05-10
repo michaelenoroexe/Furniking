@@ -358,7 +358,7 @@ trend-categ {
   display: block;
   margin-left: 135px;
   width: 1170px;
-  height: 1010px;
+  height: 100%;
   cdk-step {
     height: 100%;
   }
@@ -369,4 +369,13 @@ trend-categ {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+}
+#special-offer {
+  margin-left: 135px;
+  width: 1170px;
+  height: 250px;
+  display: grid;
+  grid-template-columns: 570px 570px;
+  justify-content: space-between;
+  margin-bottom: 120px;
 }

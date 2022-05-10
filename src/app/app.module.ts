@@ -9,11 +9,12 @@ import { CdkStepperModule } from '@angular/cdk/stepper'
 import { ReactiveFormsModule, }   from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
-import { CustomStepperComponent } from './herobaner/stepper.component'
-import { PreferenceComponent } from './preferences/preferences.component'
-import { CategoriesComponent } from './trending/categories.component'
-import { PagesComponent } from './trending/pages.component'
-import { FurnExampleComponent } from './trending/component/example.component'
+import { CustomStepperComponent } from './herobaner/stepper.component';
+import { PreferenceComponent } from './preferences/preferences.component';
+import { CategoriesComponent } from './trending/categories.component';
+import { PagesComponent } from './trending/pages.component';
+import { FurnExampleComponent } from './trending/component/example.component';
+import { OfferItemComponent } from './specialOffer/item/item.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FurnExampleComponent } from './trending/component/example.component'
     PreferenceComponent,
     CategoriesComponent,
     PagesComponent,
-    FurnExampleComponent
+    FurnExampleComponent,
+    OfferItemComponent
   ],
   imports: [
     BrowserModule,
