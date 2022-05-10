@@ -51,20 +51,6 @@ header {
   align-items: center;
   text-align: center;
   height: 90px;
-  #logo {
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    text-decoration: none;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    align-items: center;
-    justify-content: space-around;
-    /* Primary */
-    color: #555555;
-  }
   #search-bar {
     border: 2px solid #7AC751;
     border-radius: 8px;
@@ -98,6 +84,20 @@ header {
       border: none;
     }
   }
+}
+.logo {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  text-decoration: none;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: center;
+  justify-content: space-around;
+  /* Primary */
+  color: #555555;
 }
 #site-bar {
   background-color: #F7F8FA;
@@ -395,6 +395,7 @@ customer-output {
   height: 355px;
 }
 #articles {
+  margin-bottom: 115px;
   margin-left: 135px;
   width: 1170px;
   display: flex;
@@ -405,4 +406,67 @@ customer-output {
     margin-bottom: 22px;
   }
 }
-
+#info {
+  margin-bottom: 50px;
+  margin-left: 135px;
+  height: max-content;
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #555555;
+  }
+  .first {
+    font-weight: 700 !important;
+  }
+  .about {
+    width: 318px;
+    .logo {
+      img {
+        margin-right: 5px;
+        transform: translateY(8px);
+      }
+      span {
+        font-size: 24px !important;
+        font-weight: 700 !important;
+        line-height: 28px !important;
+      }
+    }
+    #ab {
+      font-family: Rubik;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 32px;
+      color: #555555;
+    }
+    #media {
+      padding: 0px;
+      a {
+        height: 32px;
+        width: 32px;
+        margin-right: 15px;
+        border-radius: 100px;
+        line-height: 32px;
+        display: inline-block;
+        text-align: center;
+      }
+    }
+  }
+  .help {
+    width: 167px;
+  }
+  .store {
+    width: 80px;
+  }
+  .supports {
+    width: 140px;
+  }
+}
